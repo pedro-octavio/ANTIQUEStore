@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.7" />
+    <PackageReference Include="MySql.Data" Version="8.0.21" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ANTIQUEStore.Application\ANTIQUEStore.Application.csproj" />
+    <ProjectReference Include="..\ANTIQUEStore.Domain.Core\ANTIQUEStore.Domain.Core.csproj" />
+    <ProjectReference Include="..\ANTIQUEStore.Domain.Services\ANTIQUEStore.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>
